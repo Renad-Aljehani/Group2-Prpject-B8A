@@ -5,7 +5,6 @@ Style Menu:
 - Modren 
 - Bonhomie 
 --------------------------------------------------
-You have chosen the minimalist style
 
                      Our Designers Are
 ---------------------------------------------------
@@ -14,7 +13,18 @@ Choose One Of The Designer:
  -Joud Hani 
  -Adam Khalid 
 ---------------------------------------------------
--You have sucsscfual booking with Joud Hani-
- To contact +966 545129041
+-You have sucsscfual booking with Mohaamed Ahmed-
+ To contact +966 545105041
 
- order number #5,Date of order: <Tue Nov 01 21:32:13 GMT+03:00 2022>
+ order number #7,Date of order: <Wed Nov 02 01:08:42 GMT+03:00 2022>
+
+---------------------------------------------------------------
+                       Payment Information                    
+---------------------------------------------------------------
+
+ Customer Name : Shaima 
+ Card Number : ******8375
+ Designer Name : Mohammed Ahmed
+ Sub Total: 3248$
+ Tax Rate: 15% , 48$
+ Total: 3296$
