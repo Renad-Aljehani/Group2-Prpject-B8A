@@ -5,35 +5,35 @@ import java.util.*;
 
 public class Group2ProjectB8A {
 
-    public static void main(String[] args) throws FileNotFoundException {
-        
-    //Creat input file 
-        File InputFile = new File("input.txt"); 
-    //init input streams
-        Scanner input= new Scanner(InputFile);
-        
+    public static void main(String[] args) throws FileNotFoundException , IOException{
+    
     //Creat output file
         File outputFile = new File("output.txt");
-    //Creat a printwritter to write to the output file
-        PrintWriter output= new PrintWriter(outputFile);
-       
+     //Creat a filewritter object called fileWtitter
+        FileWriter fileWtitter= new FileWriter(outputFile);    
+    //Creat a printwritter object called output
+        PrintWriter output= new PrintWriter(fileWtitter);
+     //Creat scanner to get input from consol called scan
+     Scanner scan = new Scanner (System.in);
+     
     //Style menu    
         output.println("                      wellcome");
         output.println("---------------------------------------------------");
-        output.println("Choose Your Style:");
+        output.println("Style Menu:");
         output.println("- Minimalist ");
         output.println("- Modren ");
         output.println("- Bonhomie ");
         output.println("--------------------------------------------------");
-         
+          System.out.println("Your Style:");
+          String Style = scan.next();
+       
     //Calling ChooseStyle method
-        ClassStyle Style= new ClassStyle();
-        Style.ChooseStyle(outputFile, InputFile, output, input);
+        ClassStyle Object1= new ClassStyle();
+        Object1.ChooseStyle(outputFile, output, scan, Style);
        
-       
-        
+      
     //closing the files
-        input.close();
+       
         output.flush();
         output.close();
      

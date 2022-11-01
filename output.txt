@@ -1,8 +1,8 @@
                       wellcome
 ---------------------------------------------------
-Choose Your Style:
+Style Menu:
 - Minimalist 
 - Modren 
 - Bonhomie 
 --------------------------------------------------
-You have chosen the modren style
+You have chosen the minimalist style

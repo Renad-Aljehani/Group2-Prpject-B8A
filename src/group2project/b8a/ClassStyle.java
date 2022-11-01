@@ -7,12 +7,12 @@ import java.util.*;
 
 public class ClassStyle {
     
-    public void ChooseStyle(File outputFile, File InputFile,PrintWriter output, Scanner input){
+    public void ChooseStyle(File outputFile,PrintWriter output, Scanner input,String Style){
        
-        while (input.hasNext()){
-        String command = input.next();
+       
+       
       
-            switch (command){
+            switch (Style){
                
             case "Minimalist":
                output.println("You have chosen the minimalist style");
@@ -28,4 +28,4 @@ public class ClassStyle {
            }
         }     
     }
-}
+
