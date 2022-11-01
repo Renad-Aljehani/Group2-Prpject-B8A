@@ -24,12 +24,32 @@ public class Group2ProjectB8A {
         output.println("- Modren ");
         output.println("- Bonhomie ");
         output.println("--------------------------------------------------");
-          System.out.println("Your Style:");
-          String Style = scan.next();
+        System.out.println("Your Style:");
+        String Style = scan.next();
        
     //Calling ChooseStyle method
         ClassStyle Object1= new ClassStyle();
         Object1.ChooseStyle(outputFile, output, scan, Style);
+    /////////////////////////////////////////////////////////////////////////////
+    //Designer Menu   
+        output.print("\n                     Our Designers Are\n");
+        output.print("---------------------------------------------------\n");
+        output.println("Choose One Of The Designer:");
+        output.print(" -Mohammed Ahmed\n");
+        output.print(" -Joud Hani \n");
+        output.print(" -Adam Khalid \n");
+        output.print("---------------------------------------------------\n");
+        System.out.print("please enter your designer choise: ");
+        //Get user whole inputs 
+        String DesignerName=scan.next();
+        DesignerName=DesignerName+scan.nextLine();
+        //Calling BookDesigner method 
+        ClassBookingDesigner Book=new ClassBookingDesigner();
+        Book.BookDesigner(outputFile, output,scan,DesignerName );
+
+
+ 
+       
        
       
     //closing the files
