@@ -11,14 +11,14 @@ public class CommentClass {
 
     String designerName;
     String experience;
-    int rate;
+    Double rate;
 
-    public void writeComment(File outputFile, PrintWriter output, Scanner input, String designerName, String experience, int rate) {
+    public void writeComment(File outputFile, PrintWriter output, Scanner input, String designerName, String experience, Double rate) {
 
-        if (rate < 0 || rate > 5) {
+        if (rate < 0.0 || rate > 5.0) {
             System.out.print(" Please try again!(rate from 0-5)");
             System.out.print("\n Rate the designer work: ");
-            rate = input.nextInt();
+            rate = input.nextDouble();
             System.out.print("\n---------------------------------------------------------------");
             System.out.print("\n                    --Thanks for your comment--            ");
             System.out.print("\n---------------------------------------------------------------");
