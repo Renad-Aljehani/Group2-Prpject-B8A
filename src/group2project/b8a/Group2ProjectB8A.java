@@ -46,9 +46,7 @@ public class Group2ProjectB8A {
         //Calling BookDesigner method 
         ClassBookingDesigner Book = new ClassBookingDesigner();
         Book.BookDesigner(outputFile, output, scan, DesignerName);
-        
-        
-        
+
         ///////////////////////////////////////////////////////////////////////////////
         // payment method 
         System.out.print("\n ");
@@ -59,11 +57,24 @@ public class Group2ProjectB8A {
         String userName = scan.nextLine();
         System.out.print("\n please write your Card Number: ");
         String userCard = scan.nextLine();
-        
+
         PaymentClass pay = new PaymentClass();
-        pay.Payment(outputFile, output, scan, userName, userCard,DesignerName);
-        
-        
+        pay.Payment(outputFile, output, scan, userName, userCard, DesignerName);
+
+        //Writing Comment method
+        System.out.print("\n ");
+        System.out.print("---------------------------------------------------------------");
+        System.out.print("\n                       <<Clients Comments>>             ");
+        System.out.print("\n---------------------------------------------------------------");
+        System.out.print("\n The designer you worked with is " + DesignerName);
+        System.out.print("\n How was your experience? ");
+        String experience = scan.nextLine();
+        System.out.print(" Rate the designer work: ");
+        Double rate = scan.nextDouble();
+
+        //Calling writeComment method
+        CommentClass comment = new CommentClass();
+        comment.writeComment(outputFile, output, scan, DesignerName, experience, rate);
 
         //closing the files
         output.flush();
