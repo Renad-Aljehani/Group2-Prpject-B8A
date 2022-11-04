@@ -13,6 +13,20 @@ public class CommentClass {
     String experience;
     Double rate;
 
+    public CommentClass() {
+
+    }
+
+    public CommentClass(String designerName, String experience, double rate) {
+        this.designerName = designerName;
+        this.experience = experience;
+        this.rate = rate;
+    }
+
+    public Double getRate() {
+        return rate;
+    }
+
     public void writeComment(File outputFile, PrintWriter output, Scanner input, String designerName, String experience, Double rate) {
 
         if (rate < 0.0 || rate > 5.0) {
@@ -20,7 +34,7 @@ public class CommentClass {
             System.out.print("\n Rate the designer work: ");
             rate = input.nextDouble();
             System.out.print("\n---------------------------------------------------------------");
-            System.out.print("\n                    --Thanks for your comment--            ");
+            System.out.print("\n                    --Thanks you--            ");
             System.out.print("\n---------------------------------------------------------------");
         }
         output.print("\n");
@@ -33,7 +47,7 @@ public class CommentClass {
         output.print("\n How was your experience? " + experience);
         output.print("\n Rate the designer work: " + rate);
         output.print("\n---------------------------------------------------------------");
-        output.print("\n                    --Thanks for your comment--            ");
+        output.print("\n                    --Thanks your--            ");
         output.print("\n---------------------------------------------------------------");
     }
 }
