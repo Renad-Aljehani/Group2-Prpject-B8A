@@ -5,21 +5,25 @@ import java.util.*;
 
 public class ClassStyle {
 
-    public void ChooseStyle(File outputFile, PrintWriter output, Scanner input, String Style) {
+    public static String ChooseStyle(File outputFile,FileWriter fileWtitter, PrintWriter output, Scanner input, String Style) {
 
-        switch (Style) {
-
-            case "Minimalist":
-                output.println("You have chosen the minimalist style");
+       String Result = null;
+           switch (Style){
+               case "Minimalist":
+                Result="You have chosen the minimalist style";
+                output.println(Result);
+           break;
+           case "Modren":
+               Result="You have chosen the modren style";
+                output.println(Result);
+           break;
+           case "Bonhomie":
+                  Result="You have chosen the bonhomie style";
+                 output.println(Result);
                 break;
-
-            case "Modren":
-                output.println("You have chosen the modren style");
-                break;
-
-            case "Bonhomie":
-                output.println("You have chosen the bonhomie style");
-                break;
-        }
+           }
+        return Result;
+       
     }
-}
+    }
+

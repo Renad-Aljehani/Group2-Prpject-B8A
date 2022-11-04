@@ -29,7 +29,7 @@ public class Group2ProjectB8A {
 
         //Calling ChooseStyle method
         ClassStyle Object1 = new ClassStyle();
-        Object1.ChooseStyle(outputFile, output, scan, Style);
+        Object1.ChooseStyle(outputFile, fileWtitter, output, scan, Style);
         /////////////////////////////////////////////////////////////////////////////
         //Designer Menu   
         output.print("\n                     Our Designers Are\n");
