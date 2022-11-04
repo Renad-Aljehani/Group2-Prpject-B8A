@@ -45,7 +45,7 @@ public class Group2ProjectB8A {
         DesignerName = DesignerName + scan.nextLine();
         //Calling BookDesigner method 
         ClassBookingDesigner Book = new ClassBookingDesigner();
-        Book.BookDesigner(outputFile, output, scan, DesignerName);
+        Book.BookDesigner(outputFile,output, scan, DesignerName);
 
         ///////////////////////////////////////////////////////////////////////////////
         // payment method 
