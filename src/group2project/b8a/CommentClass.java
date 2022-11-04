@@ -34,7 +34,7 @@ public class CommentClass {
             System.out.print("\n Rate the designer work: ");
             rate = input.nextDouble();
             System.out.print("\n---------------------------------------------------------------");
-            System.out.print("\n                    --Thanks you--            ");
+            System.out.print("\n                    --Thank you--            ");
             System.out.print("\n---------------------------------------------------------------");
         }
         output.print("\n");
@@ -47,7 +47,7 @@ public class CommentClass {
         output.print("\n How was your experience? " + experience);
         output.print("\n Rate the designer work: " + rate);
         output.print("\n---------------------------------------------------------------");
-        output.print("\n                    --Thanks your--            ");
+        output.print("\n                    --Thank you--            ");
         output.print("\n---------------------------------------------------------------");
     }
 }
