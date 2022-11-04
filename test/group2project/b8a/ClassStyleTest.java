@@ -45,7 +45,7 @@ public class ClassStyleTest {
     /**
      * Test of ChooseStyle method, of class ClassStyle.
      */
-    @Test
+    @Test (timeout=10)
     public void testChooseStyle() throws IOException {
         System.out.println("ChooseStyle");
         File outputFile = new File("output.txt");
