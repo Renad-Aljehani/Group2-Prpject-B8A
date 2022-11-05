@@ -20,7 +20,7 @@ public class Group2ProjectB8A {
         
         //Style menu  
         output.print("---------------------------------------------------------------");
-        output.print("\n                          <<Welcome>>                        ");
+        output.print("\n                    <<Welcome to IDESIGN>>                        ");
         output.print("\n---------------------------------------------------------------\n");
         output.println("Style Menu:");
         output.println("- Minimalist ");
