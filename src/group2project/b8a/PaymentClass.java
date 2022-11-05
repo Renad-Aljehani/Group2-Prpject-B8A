@@ -30,7 +30,6 @@ public class PaymentClass {
         }
 
         output.print("\n");
-        output.print("\n");
         output.print("---------------------------------------------------------------");
         output.print("\n                       Payment Information                    ");
         output.print("\n---------------------------------------------------------------");

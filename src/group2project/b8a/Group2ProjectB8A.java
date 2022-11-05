@@ -27,9 +27,9 @@ public class Group2ProjectB8A {
         output.println("- Modren ");
         output.println("- Bonhomie ");
         output.println("---------------------------------------------------------------");
-        System.out.println("Your Style:");
+        System.out.print("Enter Your Style:");
         String Style = scan.next();
-
+        output.print("Your Style:" + Style + "\n");
         //Calling ChooseStyle method
         ClassStyle Object1 = new ClassStyle();
         Object1.ChooseStyle(outputFile, fileWtitter, output, scan, Style);
@@ -55,6 +55,8 @@ public class Group2ProjectB8A {
         ClassBookingDesigner Book = new ClassBookingDesigner();
         Book.BookDesigner(outputFile,output, scan, DesignerName);
 
+        
+        output.print("\n");
         ///////////////////////////////////////////////////////////////////////////////
         
         // payment method 
@@ -87,7 +89,8 @@ public class Group2ProjectB8A {
         //Calling writeComment method
         CommentClass comment = new CommentClass();
         comment.writeComment(outputFile, output, scan, DesignerName, experience, rate);
-
+        
+        output.print("\n");
         ///////////////////////////////////////////////////////////////////////////////
          
         //closing the files

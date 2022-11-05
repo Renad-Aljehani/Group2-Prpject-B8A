@@ -1,0 +1,44 @@
+---------------------------------------------------------------
+                    <<Welcome to IDESIGN>>                        
+---------------------------------------------------------------
+Style Menu:
+- Minimalist 
+- Modren 
+- Bonhomie 
+---------------------------------------------------------------
+Your Style:Modern
+
+---------------------------------------------------------------
+                         Our Designers                         
+---------------------------------------------------------------
+Choose One Of The Designers:
+ -Mohammed Ahmed
+ -Joud Hani 
+ -Adam Khalid 
+---------------------------------------------------------------
+-You have successful booking with Mohaamed Ahmed-
+ To contact +966 545105041
+
+ order number #6,Date of order: <Sun Nov 06 01:45:59 GMT+03:00 2022>
+
+---------------------------------------------------------------
+                       Payment Information                    
+---------------------------------------------------------------
+
+ Customer Name : Noura Amer
+ Card Number : ******9586
+ Designer Name : Mohammed Ahmed
+ Sub Total: 1015$
+ Tax Rate: 15% , 15$
+ Total: 1030$
+
+---------------------------------------------------------------
+                       <<Clients Comments>>                    
+---------------------------------------------------------------
+
+ Designer Name: Mohammed Ahmed
+ How was your experience? Amazing
+ Rate the designer work: 4.8
+---------------------------------------------------------------
+                          --Thank you--                        
+---------------------------------------------------------------
