@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package group2project.b8a;
 
 import java.io.File;
@@ -21,6 +17,7 @@ import static org.junit.Assert.*;
  *
  * @author shaima
  */
+
 public class PaymentClassTest {
     
     public PaymentClassTest() {
@@ -45,6 +42,7 @@ public class PaymentClassTest {
     /**
      * Test of Payment method, of class PaymentClass.
      */
+    
     @Test (timeout = 10)
     public void testPayment() throws IOException{
         System.out.println("Payment");

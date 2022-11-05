@@ -41,6 +41,7 @@ public class CommentClassTest {
      *
      * @throws java.io.FileNotFoundException
      */
+    
     @Test(timeout = 10)
     public void testWriteComment() throws IOException {//Check if WriteComment() method is working
         System.out.println("Test writeComment method");

@@ -7,6 +7,7 @@ import java.util.*;
  *
  * @author Renad Aljehani
  */
+
 public class CommentClass {
 
     String designerName;
@@ -47,7 +48,7 @@ public class CommentClass {
         output.print("\n How was your experience? " + experience);
         output.print("\n Rate the designer work: " + rate);
         output.print("\n---------------------------------------------------------------");
-        output.print("\n                    --Thank you--            ");
+        output.print("\n                          --Thank you--                        ");
         output.print("\n---------------------------------------------------------------");
     }
 }

@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package group2project.b8a;
 
 import java.io.File;
@@ -19,8 +15,9 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author mtbtr
+ * @author Saraa Alotibi 
  */
+
 public class ClassStyleTest {
     
     public ClassStyleTest() {
@@ -43,8 +40,9 @@ public class ClassStyleTest {
     }
 
     /**
-     * Test of ChooseStyle method, of class ClassStyle.
+     * Test of ChooseSyle method, of class ClassStyle.
      */
+    
     @Test (timeout=10)
     public void testChooseStyle() throws IOException {
         System.out.println("ChooseStyle");
@@ -56,7 +54,7 @@ public class ClassStyleTest {
         String expResult = "You have chosen the modren style";
         String result = ClassStyle.ChooseStyle(outputFile, fileWtitter, output, input, Style);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+        
        
     }
        @Test  (timeout=10)

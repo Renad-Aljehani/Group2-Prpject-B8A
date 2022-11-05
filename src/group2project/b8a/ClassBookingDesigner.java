@@ -6,6 +6,11 @@ import java.io.PrintWriter;
 import java.util.Date;
 import java.util.Scanner;
 
+/**
+ *
+ * @author Jumanah nagro
+ */
+
 class ClassBookingDesigner {
 
     //Date Object

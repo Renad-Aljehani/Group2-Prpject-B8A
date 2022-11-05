@@ -16,38 +16,47 @@ public class Group2ProjectB8A {
         //Creat scanner to get input from consol called scan
         Scanner scan = new Scanner(System.in);
 
-        //Style menu    
-        output.println("                      wellcome");
-        output.println("---------------------------------------------------");
+        /////////////////////////////////////////////////////////////////////////////
+        
+        //Style menu  
+        output.print("---------------------------------------------------------------");
+        output.print("\n                          <<Welcome>>                        ");
+        output.print("\n---------------------------------------------------------------\n");
         output.println("Style Menu:");
         output.println("- Minimalist ");
         output.println("- Modren ");
         output.println("- Bonhomie ");
-        output.println("--------------------------------------------------");
+        output.println("---------------------------------------------------------------");
         System.out.println("Your Style:");
         String Style = scan.next();
 
         //Calling ChooseStyle method
         ClassStyle Object1 = new ClassStyle();
         Object1.ChooseStyle(outputFile, fileWtitter, output, scan, Style);
+        
         /////////////////////////////////////////////////////////////////////////////
+        
         //Designer Menu   
-        output.print("\n                     Our Designers Are\n");
-        output.print("---------------------------------------------------\n");
-        output.println("Choose One Of The Designer:");
+        output.print("\n---------------------------------------------------------------");
+        output.print("\n                         Our Designers                         \n");
+        output.println("---------------------------------------------------------------");
+        output.println("Choose One Of The Designers:");
         output.print(" -Mohammed Ahmed\n");
         output.print(" -Joud Hani \n");
         output.print(" -Adam Khalid \n");
-        output.print("---------------------------------------------------\n");
+        output.println("---------------------------------------------------------------");
         System.out.print("please enter your designer choise: ");
+        
         //Get user whole inputs 
         String DesignerName = scan.next();
         DesignerName = DesignerName + scan.nextLine();
+        
         //Calling BookDesigner method 
         ClassBookingDesigner Book = new ClassBookingDesigner();
         Book.BookDesigner(outputFile,output, scan, DesignerName);
 
         ///////////////////////////////////////////////////////////////////////////////
+        
         // payment method 
         System.out.print("\n ");
         System.out.print("---------------------------------------------------------------");
@@ -58,9 +67,12 @@ public class Group2ProjectB8A {
         System.out.print("\n please write your Card Number: ");
         String userCard = scan.nextLine();
 
+        //Calling payment method 
         PaymentClass pay = new PaymentClass();
         pay.Payment(outputFile, output, scan, userName, userCard, DesignerName);
 
+        ///////////////////////////////////////////////////////////////////////////////
+         
         //Writing Comment method
         System.out.print("\n ");
         System.out.print("---------------------------------------------------------------");
@@ -76,6 +88,8 @@ public class Group2ProjectB8A {
         CommentClass comment = new CommentClass();
         comment.writeComment(outputFile, output, scan, DesignerName, experience, rate);
 
+        ///////////////////////////////////////////////////////////////////////////////
+         
         //closing the files
         output.flush();
         output.close();

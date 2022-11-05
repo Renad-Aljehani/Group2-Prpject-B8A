@@ -3,6 +3,11 @@ package group2project.b8a;
 import java.io.*;
 import java.util.*;
 
+/**
+ *
+ * @author Saraa Alotibi
+ */
+
 public class ClassStyle {
 
     public static String ChooseStyle(File outputFile,FileWriter fileWtitter, PrintWriter output, Scanner input, String Style) {
