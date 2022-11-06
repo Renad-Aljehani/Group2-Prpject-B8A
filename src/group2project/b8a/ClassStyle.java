@@ -18,8 +18,8 @@ public class ClassStyle {
                 Result="You have chosen the minimalist style";
                 output.println(Result);
            break;
-           case "Modren":
-               Result="You have chosen the modren style";
+           case "Modern":
+               Result="You have chosen the modern style";
                 output.println(Result);
            break;
            case "Bonhomie":

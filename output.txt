@@ -3,10 +3,10 @@
 ---------------------------------------------------------------
 Style Menu:
 - Minimalist 
-- Modren 
+- Modern 
 - Bonhomie 
 ---------------------------------------------------------------
-Your Style:Modern
+You have chosen the modern style
 
 ---------------------------------------------------------------
                          Our Designers                         
@@ -16,28 +16,28 @@ Choose One Of The Designers:
  -Joud Hani 
  -Adam Khalid 
 ---------------------------------------------------------------
--You have successful booking with Joud Hani- To contact +966 545129041
+-You have successful booking with Mohaamed Ahmed- To contact +966 545105041
 
- order number #7,Date of order: <Sun Nov 06 22:18:08 GMT+03:00 2022>
+ order number #6,Date of order: <Sun Nov 06 22:37:15 AST 2022>
 
 ---------------------------------------------------------------
                        Payment Information                    
 ---------------------------------------------------------------
 
- Customer Name : Jumanah
- Card Number : ******6970
- Designer Name : Joud Hani
- Sub Total: 9077$
- Tax Rate: 15% , 136$
- Total: 9213$
+ Customer Name : s
+ Card Number : ******6789
+ Designer Name : Mohammed Ahmed
+ Sub Total: 9927$
+ Tax Rate: 15% , 148$
+ Total: 10075$
 
 ---------------------------------------------------------------
                        <<Clients Comments>>                    
 ---------------------------------------------------------------
 
- Designer Name: Joud Hani
- How was your experience? grat
- Rate the designer work: 5.0
+ Designer Name: Mohammed Ahmed
+ How was your experience? g
+ Rate the designer work: 4.0
 ---------------------------------------------------------------
                           --Thank you--                        
 ---------------------------------------------------------------

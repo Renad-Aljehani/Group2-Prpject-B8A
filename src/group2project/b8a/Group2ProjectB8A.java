@@ -24,12 +24,12 @@ public class Group2ProjectB8A {
         output.print("\n---------------------------------------------------------------\n");
         output.println("Style Menu:");
         output.println("- Minimalist ");
-        output.println("- Modren ");
+        output.println("- Modern ");
         output.println("- Bonhomie ");
         output.println("---------------------------------------------------------------");
         System.out.print("Enter Your Style:");
         String Style = scan.next();
-        output.print("Your Style:" + Style + "\n");
+       
         //Calling ChooseStyle method
         ClassStyle Object1 = new ClassStyle();
         Object1.ChooseStyle(outputFile, fileWtitter, output, scan, Style);

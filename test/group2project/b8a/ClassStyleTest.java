@@ -50,17 +50,11 @@ public class ClassStyleTest {
         FileWriter fileWtitter = new FileWriter(outputFile);
         PrintWriter output = new PrintWriter(fileWtitter);
         Scanner input = new Scanner(System.in);
-        String Style = "Modren";
-        String expResult = "You have chosen the modren style";
+        String Style = "Modern";
+        String expResult = "You have chosen the modern style";
         String result = ClassStyle.ChooseStyle(outputFile, fileWtitter, output, input, Style);
         assertEquals(expResult, result);
         
-       
     }
-       @Test  (timeout=10)
-       public void  testSameReference(){
-        String expresult = "You have chosen the modren style";
-         String result ="You have chosen the modren style";
-         assertSame(expresult,result);
-     }
+     
 }
