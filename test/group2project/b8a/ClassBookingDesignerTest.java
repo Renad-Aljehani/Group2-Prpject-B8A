@@ -1,4 +1,8 @@
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package group2project.b8a;
 
 import java.io.File;
@@ -15,9 +19,8 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Jumanah nagro
+ * @author Jumma
  */
-
 public class ClassBookingDesignerTest {
     
     public ClassBookingDesignerTest() {
@@ -42,24 +45,20 @@ public class ClassBookingDesignerTest {
     /**
      * Test of BookDesigner method, of class ClassBookingDesigner.
      */
-    
-    @Test(timeout=10)
-    public void testBookDesigner() throws IOException {
+    @Test
+    public void testBookDesigner() throws IOException  {
         System.out.println("BookDesigner");
-       
         File outputFile = new File("output.txt");
         FileWriter fileWtitter = new FileWriter(outputFile);
         PrintWriter output = new PrintWriter(fileWtitter);
         Scanner input = new Scanner(System.in);
-        
         String DesignerName = "Joud Hani";
-        ClassBookingDesigner instance = new ClassBookingDesigner();
-        instance.BookDesigner(outputFile, output, input, DesignerName);
-      
+        String expResult = "-You have successful booking with Joud Hani- To contact " + ClassBookingDesigner.contactJoud ;
+        String result = ClassBookingDesigner.BookDesigner(outputFile, output, input, DesignerName);
+        assertEquals(expResult, result);
+  
     }
-   
-         @Test(timeout = 90)
- 
+        @Test(timeout = 90)
          public void testNotSame() {
  
          System.out.println("NotSameDesigner");
@@ -69,13 +68,6 @@ public class ClassBookingDesignerTest {
           String ms2 = "Joud Hani";
  
           assertNotSame(ms1, ms2);
- 
-}
-
- 
- 
- 
-
-
+         }
     
 }
