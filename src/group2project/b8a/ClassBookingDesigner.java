@@ -27,16 +27,16 @@ class ClassBookingDesigner {
         randomNum= (int) (Math.random() * 10) + 1;
         //conditions
         if (DesignerName.equalsIgnoreCase("Mohammed Ahmed")) {
-            Result="-You have successful booking with Mohaamed Ahmed- To contact " + contactMohammed ;
+            Result="-You have successful booking with Mohaamed Ahmed-\n To contact " + contactMohammed ;
             output.print(Result);
 
         }  
         if (DesignerName.equalsIgnoreCase("Joud Hani")) {
-            Result="-You have successful booking with Joud Hani- To contact " + contactJoud ;
+            Result="-You have successful booking with Joud Hani-\n To contact " + contactJoud ;
             output.print(Result);
         }  
         if (DesignerName.equalsIgnoreCase("Adam Khalid")) {
-            Result=("-You have successful booking with Adam Khalid- To contact " + contactAdam);
+            Result=("-You have successful booking with Adam Khalid-\n To contact " + contactAdam);
             output.print(Result);
 
         } 

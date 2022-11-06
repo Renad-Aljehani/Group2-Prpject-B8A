@@ -16,28 +16,29 @@ Choose One Of The Designers:
  -Joud Hani 
  -Adam Khalid 
 ---------------------------------------------------------------
--You have successful booking with Mohaamed Ahmed- To contact +966 545105041
+-You have successful booking with Joud Hani-
+ To contact +966 545129041
 
- order number #6,Date of order: <Sun Nov 06 22:37:15 AST 2022>
+ order number #10,Date of order: <Sun Nov 06 23:02:29 GMT+03:00 2022>
 
 ---------------------------------------------------------------
                        Payment Information                    
 ---------------------------------------------------------------
 
- Customer Name : s
- Card Number : ******6789
- Designer Name : Mohammed Ahmed
- Sub Total: 9927$
- Tax Rate: 15% , 148$
- Total: 10075$
+ Customer Name : JUmm
+ Card Number : ******7890
+ Designer Name : Joud Hani
+ Sub Total: 5300$
+ Tax Rate: 15% , 79$
+ Total: 5379$
 
 ---------------------------------------------------------------
                        <<Clients Comments>>                    
 ---------------------------------------------------------------
 
- Designer Name: Mohammed Ahmed
- How was your experience? g
- Rate the designer work: 4.0
+ Designer Name: Joud Hani
+ How was your experience? trr
+ Rate the designer work: 5.0
 ---------------------------------------------------------------
                           --Thank you--                        
 ---------------------------------------------------------------

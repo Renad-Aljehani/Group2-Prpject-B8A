@@ -53,7 +53,7 @@ public class ClassBookingDesignerTest {
         PrintWriter output = new PrintWriter(fileWtitter);
         Scanner input = new Scanner(System.in);
         String DesignerName = "Joud Hani";
-        String expResult = "-You have successful booking with Joud Hani- To contact " + ClassBookingDesigner.contactJoud ;
+        String expResult = "-You have successful booking with Joud Hani-\n To contact " + ClassBookingDesigner.contactJoud ;
         String result = ClassBookingDesigner.BookDesigner(outputFile, output, input, DesignerName);
         assertEquals(expResult, result);
   
