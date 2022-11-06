@@ -19,14 +19,14 @@ Choose One Of The Designers:
 -You have successful booking with Joud Hani-
  To contact +966 545129041
 
- order number #10,Date of order: <Sun Nov 06 23:02:29 GMT+03:00 2022>
+ order number #6,Date of order: <Sun Nov 06 23:18:10 GMT+03:00 2022>
 
 ---------------------------------------------------------------
                        Payment Information                    
 ---------------------------------------------------------------
 
- Customer Name : JUmm
- Card Number : ******7890
+ Customer Name : hhh
+ Card Number : ******6789
  Designer Name : Joud Hani
  Sub Total: 5300$
  Tax Rate: 15% , 79$
@@ -37,7 +37,7 @@ Choose One Of The Designers:
 ---------------------------------------------------------------
 
  Designer Name: Joud Hani
- How was your experience? trr
+ How was your experience? bjhj
  Rate the designer work: 5.0
 ---------------------------------------------------------------
                           --Thank you--                        
