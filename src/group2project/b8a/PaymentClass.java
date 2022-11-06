@@ -14,21 +14,25 @@ import java.util.Scanner;
 
 public class PaymentClass {
 
-    String Customer_name;
-    int amount = (int) (Math.random() * 10000) + 1;
-    String Account_number;
-    int tax = (int) (amount * 0.015);
-    int total = amount + tax;
 
-    public void Payment(File outputFile, PrintWriter output, Scanner input, String Customer_name, String Account_number, String DesignerName) {
+    String Customer_name;
+    static int amount ;
+    String Account_number;
+    static int tax;
+    static int total;
+    static String result = null;
+
+    public static String Payment(File outputFile, PrintWriter output, Scanner input, String Customer_name, String Account_number, String DesignerName) {
 
         char[] Acount = Account_number.toCharArray();
         int size = Acount.length;
         String lastFourNum = "";
         for (int i = size - 1; i > size - 5; i--) {
             lastFourNum = Acount[i] + lastFourNum;
+            
+            
         }
-
+        
         output.print("\n");
         output.print("---------------------------------------------------------------");
         output.print("\n                       Payment Information                    ");
@@ -36,11 +40,37 @@ public class PaymentClass {
         output.print("\n");
         output.print("\n Customer Name : " + Customer_name);
         output.print("\n Card Number : ******" + lastFourNum);
-        output.print("\n Designer Name : " + DesignerName);
-        output.print("\n Sub Total: " + amount + "$");
-        output.print("\n Tax Rate: 15% , " + tax + "$");
-        output.print("\n Total: " + total + "$");
+        
+
+        if (DesignerName.equalsIgnoreCase("Mohammed Ahmed")) {
+            amount = 4670;
+            tax = (int) (amount * 0.015);
+            total = amount + tax;
+            result = "\n Designer Name : " + DesignerName +"\n Sub Total: " + amount + "$" + "\n Tax Rate: 15% , " + tax + "$" + "\n Total: " + total + "$";
+            output.print(result);
+            
+        } else if (DesignerName.equalsIgnoreCase("Joud Hani")) {
+            amount = 5300;
+            tax = (int) (amount * 0.015);
+            total = amount + tax;
+            result = "\n Designer Name : " + DesignerName +"\n Sub Total: " + amount + "$" + "\n Tax Rate: 15% , " + tax + "$" + "\n Total: " + total + "$";
+            output.print(result);
+
+        } else if (DesignerName.equalsIgnoreCase("Adam Khalid")) {
+            amount = 2600;
+            tax = (int) (amount * 0.015);
+            total = amount + tax;
+            result = "\n Designer Name : " + DesignerName +"\n Sub Total: " + amount + "$" + "\n Tax Rate: 15% , " + tax + "$" + "\n Total: " + total + "$";
+            output.print(result);
+            
+        } 
+
+        
+        
+        
+        return result;
 
     }
+    
 
 }

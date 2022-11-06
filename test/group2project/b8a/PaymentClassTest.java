@@ -51,9 +51,13 @@ public class PaymentClassTest {
         Scanner input = new Scanner(System.in);
         String Customer_name = "Shaima";
         String Account_number = "1982736456";
+        int amount = 4670;
+        int tax = (int) (amount * 0.015);
+        int total = amount + tax;
         String DesignerName = "Mohammed Ahmed";
-        PaymentClass instance = new PaymentClass();
-        instance.Payment(outputFile, output, input, Customer_name, Account_number, DesignerName);
+        String expResult = "\n Designer Name : " + "Mohammed Ahmed" +"\n Sub Total: " + amount + "$" + "\n Tax Rate: 15% , " + tax + "$" + "\n Total: " + total + "$";
+        String result = PaymentClass.Payment(outputFile, output, input, Customer_name, Account_number, DesignerName);
+        assertEquals(expResult,result);
         
     }
     
